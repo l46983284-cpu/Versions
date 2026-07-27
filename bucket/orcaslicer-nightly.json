@@ -1,12 +1,16 @@
 {
-    "version": "1782641910",
+    "version": "1785111941",
     "description": "G-code generator for 3D printers (Bambu, Prusa, Voron, VzBot, RatRig, Creality, etc.)",
     "homepage": "https://github.com/OrcaSlicer/OrcaSlicer",
     "license": "AGPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/download/nightly-builds/OrcaSlicer_Windows_nightly_portable.zip",
-            "hash": "de802d23cd922b4ab7dfecca15acb7b921f593562a41dca9c1c9abe5ecb7cf50"
+            "url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/download/nightly-builds/OrcaSlicer_Windows_x64_nightly_portable.zip",
+            "hash": "c9086251e147d60304ba091ed468816b41473cada37a48c4a5093aa5921e08b7"
+        },
+        "arm64": {
+            "url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/download/nightly-builds/OrcaSlicer_Windows_arm64_nightly_portable.zip",
+            "hash": "6ec49d300d126dd46e864943c7806b9cdc40a9e6803a9c61421d4426641fc940"
         }
     },
     "extract_dir": "OrcaSlicer",
@@ -29,7 +33,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/download/nightly-builds/OrcaSlicer_Windows_nightly_portable.zip"
+                "url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/download/nightly-builds/OrcaSlicer_Windows_x64_nightly_portable.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/download/nightly-builds/OrcaSlicer_Windows_arm64_nightly_portable.zip"
             }
         }
     }
